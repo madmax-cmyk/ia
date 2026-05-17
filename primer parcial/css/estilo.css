@@ -15,7 +15,7 @@ h1, h2{
     color: rgb(6, 40, 61) ;
 }
 
-header, main, aside, footer, .uno, .dos, .tres{
+header, main, aside, footer, .otra{
     background: rgba(150, 230, 255, 0.9);
     padding: 20px;
     margin: 20px;
