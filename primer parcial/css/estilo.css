@@ -22,7 +22,7 @@ header, main, aside, footer, .uno, .dos, .tres{
     border-radius: 10px;
 }
 
-.uno-ind, .dos-nar, .tres-per{
+.actual{
     background: rgba(100, 200, 255, 0.9);
     padding: 20px;
     margin: 20px;
@@ -34,12 +34,20 @@ header{
   display: flex;
   gap: 1rem;
   align-items: flex-start;
+  font-size: 110%;
+    padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
 }
 
-.foto-principal{
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+.foto-principal {
+  flex-shrink: 0; 
+  height: auto;
+  max-width: 325px;
+}
+
+.titulo {
+  flex: 1;  
 }
 
 nav ul{
@@ -99,7 +107,4 @@ footer{
 
 main{
      font-size: 125%;
-}
-header{
-    font-size: 110%;
 }
